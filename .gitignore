@@ -1,0 +1,29 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de logs
+*.log
+
+# Carpetas de Python/Bash temporales
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+
+# Archivos de configuración local
+*.local
+*.bak
+*.tmp
+
+# Archivos generados por AWS CLI/SDK
+*.zip
+*.json.backup
+*.terraform/
+
+# Node modules si llegas a usar Node
+node_modules/
